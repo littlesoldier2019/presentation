@@ -54,7 +54,7 @@ const emml = ( <ul>
     <li>Testing and general bug fixes</li>
 </ul>)
 
-const animals = [
+const teamdata = [
     {
         name: 'Anna',
         image: Anna,
@@ -88,11 +88,11 @@ class Slider extends Component {
 
     state = {
         index: 0,
-        animals
+        teamdata
     };
 
     Next = () => {
-        if (this.state.index < this.state.animals.length - 1) {
+        if (this.state.index < this.state.teamdata.length - 1) {
             this.setState({ index: this.state.index + 1 });
         } else {
             this.setState({ index: 0 });
@@ -106,9 +106,9 @@ class Slider extends Component {
             <>
                  <div className="caption">Introduction of Team members and their Roles </div>
                 <div className="slider">
-                    {/* <div style={{ margin: '20px' }}>{this.state.animals[this.state.index].name}</div> */}
-                    <div className='team_wrapper-image'><img className='bioimg' src={this.state.animals[this.state.index].image} alt=" " /></div>
-                    <div className='team_wrapper-text'>{this.state.animals[this.state.index].text}</div>
+                    {/* <div style={{ margin: '20px' }}>{this.state.teamdata[this.state.index].name}</div> */}
+                    <div className='team_wrapper-image'><img className='bioimg' src={this.state.teamdata[this.state.index].image} alt=" " /></div>
+                    <div className='team_wrapper-text'>{this.state.teamdata[this.state.index].text}</div>
                 </div>
                 <button className='btns' onClick={this.Next}> Next </button>
             </>
