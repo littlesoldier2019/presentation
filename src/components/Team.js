@@ -41,11 +41,13 @@ function Team() {
                 <div className='team_wrapper-text'>
                     <ul>
                         <li className="caption1">Nguyen Hong Ngoc (Helmi)</li>
-                        <li> I worked with client at the first stage to get their requirements and converted them into structure of the website.</li>
-                        <li>I shared ⅕ of all components, then I gathered components together for the blog page and test it.</li>
-                        <li>For functionality, I created the sliders; user authentication using Firebase so that users can sign up, login, logout, forget password; and the header generates content accordingly.</li>
-                        <li>Created content model and content in contenful for Workshop and Groupwork post</li>
-                        <li>I made the route into public and private ones under users context API, and added transition between pages. </li>
+                        <li>Worked with client to get requirements and converted them into website structure.</li>
+                        <li>Created ⅕ of all components, then I gathered components together for the blog page and test it.</li>
+                        <li>Created header generates content accordingly to user status</li>
+                        <li>Created the sliders</li>
+                        <li>Created user authentication using Firebase so that users can sign up, login, logout, forget password</li>
+                        <li>Created route into public and private ones under users context API</li>
+                        <li>added transition between pages. </li>
                     </ul>
                 </div>
             </div>
