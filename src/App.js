@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Sidebar from "./components/Sidebar"
-import Home from "./components/Home"
-import Team from "./components/Team";
+// import Home from "./components/Home"
+// import Team from "./components/Team";
 import Project from "./components/Project";
 import ToolsandTechs from "./components/ToolsandTechs";
 import Designs from "./components/Designs";
