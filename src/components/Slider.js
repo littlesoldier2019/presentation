@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import Emml from './image/Emml.jpg';
-import Anna from './image/Anna.jpg';
-import Oby from './image/Oby.jpg';
-import Cheaeh from './image/Cheaeh.jpg';
-import Helmi from './image/Helmi.jpg';
+import Emml from '../image/Emml.jpg';
+import Anna from '../image/Anna.jpg';
+import Oby from '../image/Oby.jpg';
+import Cheaeh from '../image/Cheaeh.jpg';
+import Helmi from '../image/Helmi.jpg';
 
 const annaText = (<ul>
     <li className="caption1">Anna (Team leader)</li>
