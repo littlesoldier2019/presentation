@@ -6,7 +6,7 @@ import Cheaeh from '../image/Cheaeh.jpg';
 import Helmi from '../image/Helmi.jpg';
 
 const annaText = (<ul>
-    <li className="caption1">Anna (Team leader)</li>
+    <li className="caption1">Anna Riazantseva (Team leader)</li>
     <li><i class="far fa-check-square"></i> Set up layout for the workshop and groupwork</li>
     <li><i class="far fa-check-square"></i> Made routing for blog/blog details</li>
     <li><i class="far fa-check-square"></i> Created system of contexts and reducers for fetching data</li>
@@ -26,7 +26,7 @@ const helmi =( <ul>
 </ul>)
 
 const chaeah = ( <ul>
-    <li className="caption1">Chaeah</li>
+    <li className="caption1">Chaeah Park</li>
     <li><i class="far fa-check-square"></i> Set up the layout and styles for the About page</li>
     <li><i class="far fa-check-square"></i> Customized the style on the accordion.</li>
     <li><i class="far fa-check-square"></i> Created the counters.</li>
@@ -37,16 +37,16 @@ const chaeah = ( <ul>
 
 const oby = ( <ul>
     <li className="caption1">Oby</li>
-    <li><i class="far fa-check-square"></i> </li>
-    <li><i class="far fa-check-square"></i> </li>
-    <li><i class="far fa-check-square"></i> </li>
-    <li><i class="far fa-check-square"></i> </li>
-    <li><i class="far fa-check-square"></i> </li>
-    <li><i class="far fa-check-square"></i> </li>
+    <li><i class="far fa-check-square"></i> Set up the layout and styles for the Main page.</li>
+    <li><i class="far fa-check-square"></i> Created routes on main page.</li>
+    <li><i class="far fa-check-square"></i> Created Features section on Main page.</li>
+    <li><i class="far fa-check-square"></i> Created the Contact form (Firebase and Cloud Functions)</li>
+    <li><i class="far fa-check-square"></i> Project management tasks in Jira</li>
+    <li><i class="far fa-check-square"></i> General testing and debugging</li>
 </ul>)
 
 const emml = ( <ul>
-    <li className="caption1">Emmanuel</li>
+    <li className="caption1">Emmanuel Bugyei</li>
     <li><i class="far fa-check-square"></i> Converted and connected relevant HTML pages from original theme to React.js components</li>
     <li><i class="far fa-check-square"></i> Created an accordion for the ToggleQA component</li>
     <li><i class="far fa-check-square"></i> Created Context API for Workshop and Groupwork components</li>

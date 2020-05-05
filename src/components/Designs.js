@@ -12,7 +12,7 @@ function Designs () {
     const [slides, setSlide] = useState([Slide1, Slide2, Slide3, Slide4])
     const content = slides.map(item => {
         return (
-            <div style={{ backgroundImage: `url(${item})`,  backgroundPosition:'center', height:'95vh'}}>
+            <div style={{ backgroundImage: `url(${item})`,  backgroundPosition:'center', backgroundRepeat:'no-repeat', height:'95vh'}}>
             </div>
         )
     });
