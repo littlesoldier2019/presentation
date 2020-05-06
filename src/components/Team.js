@@ -9,7 +9,7 @@ import Helmi from '../image/Helmi.jpg';
 function Team() {
     return (
         <div className='team'>
-            <div className="caption">Introduction of Team members and their Roles </div>
+            <div className="caption">Introduction of Team members and their Roles. </div>
             <div className='team_wrapper'>
                 <div className='team_wrapper-image'>
                     <img
