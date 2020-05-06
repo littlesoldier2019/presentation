@@ -17,9 +17,8 @@ function Improvements() {
                     <ul>
                         <li className="caption1">FURTHER IMPROVEMENTS</li>
                         <li><i class="far fa-check-square"></i> Integrate others tools (Zoom, Palet) into the page</li>
-                        <li><i class="far fa-check-square"></i> Enhance strictly verification to avoid spam in contact form and comment section</li>
                         <li><i class="far fa-check-square"></i> Add more security features in term of users authentication</li>
-                        <li><i class="far fa-check-square"></i> Develop new features in Materials page</li>
+                        <li><i class="far fa-check-square"></i> Add error handler</li>
                     </ul>
                 </div>
             </div>

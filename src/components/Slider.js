@@ -36,7 +36,7 @@ const chaeah = ( <ul>
 </ul>)
 
 const oby = ( <ul>
-    <li className="caption1">Oby</li>
+    <li className="caption1">Oby Manyando</li>
     <li><i class="far fa-check-square"></i> Set up the layout and styles for the Main page.</li>
     <li><i class="far fa-check-square"></i> Created routes on main page.</li>
     <li><i class="far fa-check-square"></i> Created Features section on Main page.</li>
