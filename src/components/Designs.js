@@ -1,11 +1,11 @@
 import React, { useState, } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Slide1 from '../image/h1.jpg';
-import Slide2 from '../image/h2.jpg';
+import Slide1 from '../image/h1.PNG';
+import Slide2 from '../image/H2.PNG';
 import Slide3 from '../image/h3.png';
 import Slide5 from '../image/h5.png';
-import Slide7 from '../image/h7.png';
+import Slide7 from '../image/github.PNG';
 
 
 
@@ -15,7 +15,7 @@ function Designs() {
 
     const content = slides.map(item => {
         return (
-            <div style={{ backgroundImage: `url(${item})`, backgroundPosition: 'center', backgroundRepeat: 'no-repeat', height: '95vh'}}>
+            <div style={{ backgroundImage: `url(${item})`, backgroundColor: '#ffff', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', height: '95vh'}}>
             </div>
         )
     });
